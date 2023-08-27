@@ -1,10 +1,11 @@
-import About from "./About";
 import "./App.css";
+import Button from "./components/Button";
 
 function App() {
   return (
     <>
-      <About />
+      <Button label="Log In" />
+      <Button label="Sign In" />
     </>
   );
 }
